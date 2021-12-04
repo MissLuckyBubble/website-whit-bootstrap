@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*NAVIGACIQ*/
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar{
+	background-image: linear-gradient(to right, #FFC0CB,#FC46AA);
+	padding: 0;
+}
+.navbar img{
+	width: 5%;
+	height: 3%;
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+.navbar-nav li a{
+	color:  #3C0121 !important;
+	font-weight: 600;
+	float: right;
+	text-align: left;
+}
+
+.fa-bars{
+	color: #3C0121;
+	font-size: 30px !important;
+}
+navbar-toggler{
+	outline: none !important;
+}
+
+
+
+/*Банер*/
+#banner{
+	background-image: linear-gradient(to right, #FFC0CB,#FC46AA);
+	color: #3C0121;
+	padding-top: 5%;
+}
+.zaglavie{
+	font-size: 35px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+.bottom-img{
+	width: 100%;
+}
+
+/*za section sladkishi*/
+#sladkishi{
+	padding: 10px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+.sladkishi-img{
+	width: 100px;
+	margin-top: 20px;
+}
+.sladkishi{
+	padding: 20px;
+}
+.sladkishi h4{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+.zaglavie_sladkishi::after{
+	content: '';
+	background:#FFC0CB ;
+	height: 5px;
+	width: 200px;
+	margin: auto;
+	display: block;
+}
+.zaglavie_sladkishi::before{
+	content: '';
+	background:#FFC0CB ;
+	height: 5px;
+	width: 200px;
+	margin: auto;
+	display: block;
+}
+
+/*ТоРТИ*/
+
+#torti{
+		padding: 10px;
+	padding-left: 80px;
+	padding-right: 80px;
+	background: #FFF9FC;
+}
+
+/*СОЦИАЛНИ МРЕЖИ*/
+#social-media{
+	padding: 100px 0px;
+}
+#social-media p{
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.social-icons img{
+	width: 10%;
+	transition: 0.5s;
+}
+.social-icons a:hover img{
+	transform: translateY(-10px);
+}
+.social-icons a{
+	padding-right: 5%;
+}
+
+
+/*FOOTER*/
+#footer{
+		background-image: linear-gradient(to right, #FFC0CB,#FC46AA);
+		color: #3C0121;
+}
+.footer-img{
+	width: 100%;
+}

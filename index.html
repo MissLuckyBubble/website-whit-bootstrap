@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <title>Bootstrap kursova</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+  </head>
+  <body>
+
+    <!-- Navigaciq-->
+  	<section id="nav-bar">
+  		<nav class="navbar navbar-expand-lg navbar-ligth">
+    <a class="navbar-brand" href="#banner"><img src="logo.png">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+      	<li class="nav-item">
+          <a class="nav-link" href="#">Начало</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#sladkishi">Сладкиши</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#torti">Торти</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#social-media">За нас</a>
+        </li>
+       
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Търсене</button>
+      </form>
+    </div>
+</nav>
+  	</section>
+    <!-- Banner-->
+    <section id= "banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="zaglavie">Най-вкусните сладкиши и торти</p>
+            <p>Разгледай всички рецепти на тези невероятно вкусни и сладки сладкиши!</p>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="home.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <img src="wave.png" class="bottom-img">
+    </section>
+
+
+    <!-- Sladkishi-->
+    <section id="sladkishi">
+      <div clas="container text-center">
+        <h1 class="zaglavie_sladkishi text-center"> Сладкиши </h1>
+        <div class="row text-center">
+
+          <div class="col-md-4 sladkishi">
+            <img src="pancakes.png" class="sladkishi-img">
+            <h4>Топли палачинки</h4>
+            <p>Тези леки и пухкави палачинки са истинска американска класика. Какво по-хубаво за закуска от пухкави палачинки с домашен плодов сироп, сладко или сирене.</p>
+          </div>
+
+          <div class="col-md-4 sladkishi">
+            <img src="pai1.png" class="sladkishi-img">
+            <h4>Сочни пайове</h4>
+            <p>Парче ябълков пай е всичко, от което имате нужда, за да си върнете доброто настроение.</p>
+          </div>
+
+          <div class="col-md-4 sladkishi">
+            <img src="macarons.png" class="sladkishi-img">
+            <h4>Вкусни сладки макарони</h4>
+            <p>Този френски десерт е едно от най-популярните сладкарски изделия. Цветни и вкусни, те не оставят никого равнодушен. </p>
+          </div>
+
+          </div>
+        </div>
+    </section>
+
+        <!-- Sladkishi-->
+    <section id="torti">
+      <div clas="container text-center">
+        <h1 class="zaglavie_sladkishi text-center"> Торти </h1>
+        <div class="row text-center">
+
+          <div class="col-md-4 sladkishi">
+            <img src="choco.png" class="sladkishi-img">
+            <h4>Шоколадови торти</h4>
+            <p>Време е за едно истинско домашно шоколадово изкушение с много крем и невероятни вкусове.</p>
+          </div>
+
+          <div class="col-md-4 sladkishi">
+            <img src="birthdaycake.png" class="sladkishi-img">
+            <h4>Торти за рожден ден</h4>
+            <p>Нашите декоратори с много умение и старание могат да пресътворят всяка Ваша идея в сладкарско бижу с красива и атрактивна визия.</p>
+          </div>
+
+          <div class="col-md-4 sladkishi">
+            <img src="cheesecake.png" class="sladkishi-img">
+            <h4>Чийзкейк</h4>
+            <p>Нямаше да живеем толкова спокойно, ако не хапвахме поне веднъж седмично парченце вкусен боровинков чийзкейк.</p>
+          </div>
+
+          </div>
+        </div>
+    </section>
+
+        <!-- Socialni mreji?-->
+
+        <section id="social-media">
+          <div class="container text-center">
+            <p>НАМЕРЕТЕ НИ В СОЦИАЛНИТЕ МРЕЖИ</p>
+            <div class="social-icons">
+              <a href="#"><img src="fb.png"></a>
+              <a href="#"><img src="insta.png"></a>
+            </div>
+          </div>
+        </section>
+
+
+
+        <!-- FOOTER --->
+        <section id="footer">
+          <img src="wave2.png" class="footer-img">
+
+        </section>
+
+
+
+
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>
